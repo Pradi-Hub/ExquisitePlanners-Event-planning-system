@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+ /* Custom CSS for the dashboard */
+    body {
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+    }
+   .navbar {
+        background-color:black; 
+        color: #fff;
+    }
+    .container {
+        padding: 20px;
+    }
+    .card {
+        margin-bottom: 20px;
+        border: 1px solid #e0e0e0;
+        border-radius: 5px;
+    }
+    .card-title {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .card-body {
+        padding: 20px;
+    }

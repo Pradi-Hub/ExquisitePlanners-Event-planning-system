@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+
+.s_form {
+  margin-left: 20px; 
+  background-color: whitesmoke; /* Choose a dark color for the background */
+  border: 1px solid #000; /* Add a dark border */
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.5); 
+}

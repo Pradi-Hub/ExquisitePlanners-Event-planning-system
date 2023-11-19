@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image: url(../IMAGES/IT22603418_contact_us1.jpg);
+}
+
+/*Reservation View*/
+
+.table{
+    border-collapse: collapse;
+    border-color: white;
+    border-radius: 20px;
+	overflow: hidden;
+	margin:auto;
+    font-size: 1em;
+	font-weight: bold;
+    max-width: 400px;
+	background: none;
+    color: cadetblue;
+	border-style: groove;
+	opacity: 0.9;
+	font-family: 'poppins', sans-serif;
+    box-shadow: 0 0 20px cadetblue(0, 0, 0, 0.15);	
+}
+
+
+.table thead tr {
+    background-color: rgb(67, 111, 112);
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.4em;
+}
+
+.table th,
+.table td{
+    padding: 12px 15px;
+    max-width: 400px;
+}
+
+.table tbody tr {
+	background-color: cadetblue;
+    color: white;
+	opacity: 0.9;
+}
+
+/*add btn*/
+ 
+.Addbtn .btnA{
+  color: cadetblue;
+  border-radius: 5px;
+  background: rgb(253, 219, 85);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: .5s;
+  letter-spacing: 3px;
+  opacity: 0.8;
+  margin-right: 500px;
+
+}
+
+.Addbtn .btnA:hover {
+  background: cadetblue;
+  opacity: 0.8;
+  color: rgb(253, 219, 85);
+  border-radius: 5px;
+  border-color: cadetblue;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px rgb(253, 219, 85);
+}
+
+
+/*Edit Delete button*/
+
+.containerE .btnE,
+.containerA .btnH,
+.containerD form .btnD{
+  color: cadetblue;
+  border-radius: 5px;
+  background: rgb(253, 219, 85);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: .5s;
+  letter-spacing: 3px;
+  opacity: 0.8;
+}
+
+.containerE .btnE:hover,
+.containerA .btnH:hover,
+.containerD form .btnD:hover {
+  background: cadetblue;
+  opacity: 0.8;
+  color: rgb(253, 219, 85);
+  border-radius: 5px;
+  border-color: cadetblue;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px rgb(253, 219, 85);
+}
+
+.containerA .btnH{
+	margin-top: 10px;
+    margin-left: 800px;
+}

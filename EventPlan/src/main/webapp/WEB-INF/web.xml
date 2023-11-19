@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+         version="3.1">
+    
+    
+         <servlet>
+			<servlet-name>oList</servlet-name>
+			<servlet-class>s_supplier.s_orderlistServlet</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>oList</servlet-name>
+			<url-pattern>/order</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>quoteInsert</servlet-name>
+			<servlet-class>s_supplier.s_quoteInsertServlet</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>quoteInsert</servlet-name>
+			<url-pattern>/insert1</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+			<servlet-name>quoteView</servlet-name>
+			<servlet-class>s_supplier.s_quoteViewServlet</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>quoteView</servlet-name>
+			<url-pattern>/view</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+			<servlet-name>quoteDelete</servlet-name>
+			<servlet-class>s_supplier.s_quoteDeleteServlet</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>quoteDelete</servlet-name>
+			<url-pattern>/delete1</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+			<servlet-name>editView</servlet-name>
+			<servlet-class>s_supplier.s_editViewServlet</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>editView</servlet-name>
+			<url-pattern>/updateview</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+			<servlet-name>updateQuote</servlet-name>
+			<servlet-class>s_supplier.s_quoteUpdateServlet</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>updateQuote</servlet-name>
+			<url-pattern>/update1</url-pattern>
+		</servlet-mapping>
+
+
+
+
+</web-app>

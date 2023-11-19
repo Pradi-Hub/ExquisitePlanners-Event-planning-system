@@ -1,0 +1,245 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image: url(../IMAGES/IT22603418_img2.jpg);
+  	background-size: cover;
+}
+
+/*Reservation Form*/
+.form{
+	max-width: 500px;
+	padding: 10px 20px;
+	margin: 10px auto;
+	margin-top: 50px;
+	background: none;
+	background-color: rgb(83, 139, 140);
+    color: white;
+	font-weight: bold;
+	border-style: groove;
+	opacity: 0.9;
+	border-radius: 20px;
+	font-family: 'poppins', sans-serif;
+}
+.form fieldset{
+	border:white;
+	font-weight: bold;
+}
+.form legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form input[type="number"],
+.form input[type="date"],
+.form input[type="time"],
+.form textarea,
+.form select {
+	font-weight: bold;
+	font-family: 'poppins', sans-serif;
+	border: 1px solid white;
+	border-radius: 4px;
+	font-size: 1.05rem;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	background-color: whitesmoke;
+	color:rgb(98, 98, 98);
+	opacity: 1;
+	margin-bottom: 30px;
+    transition: all 0.3s ease-in;
+}
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form input[type="tel"]:focus,
+.form input[type="number"]:focus,
+.form input[type="date"]:focus,
+.form input[type="time"]:focus,
+.form textarea:focus,
+.form select:focus{
+	background: white;
+}
+.form select{
+
+	height:45px;
+}
+.form .number {
+	background: white;
+	color: rgb(98, 98, 98);
+	opacity: 0.6;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 #1f242d;
+	border-radius: 15px 15px 15px 0px;
+}
+
+
+.form input[type="text"]:hover,
+.form input[type="tel"]:hover,
+.form input[type="email"]:hover,
+.form input[type="number"]:hover,
+.form input[type="date"]:hover,
+.form input[type="time"]:hover,
+.form textarea:hover,
+.form select:hover
+{
+	background-color: #1f242d;
+    color: #fff;
+}
+
+.tab {
+    display: inline-block;
+    width: 200px; /* Adjust the width to your preference */
+  }
+
+/*Reservation View*/
+.table-container {
+    display: flex;   
+}
+
+.table1{
+    margin-left: 500px;
+}
+.table2{
+    margin-left: 50px;
+}
+
+.table1, .table2{
+    border-collapse: collapse;
+    border-color: white;
+    border-radius: 20px;
+	overflow: hidden;
+	margin-top: 50px;
+	margin-bottom: 50px;
+    font-size: 1em;
+	font-weight: bold;
+    min-width: 400px;
+	background: none;
+    color: cadetblue;
+	border-style: groove;
+	opacity: 0.9;
+	font-family: 'poppins', sans-serif;
+    box-shadow: 0 0 20px cadetblue(0, 0, 0, 0.15);	
+}
+
+.table1 thead tr,
+.table2 thead tr {
+    background-color: rgb(67, 111, 112);
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.4em;
+    letter-spacing: 3px;
+  	text-transform: uppercase;
+}
+
+.table1 th,
+.table1 td,
+.table2 th,
+.table2 td {
+    padding: 12px 15px;
+}
+
+.table1 tbody tr,
+.table2 tbody tr {
+	background-color: cadetblue;
+    color: white;
+	opacity: 0.9;
+}
+
+.table1 tbody tr:hover,
+.table2 tbody tr:hover {
+	background-color: rgb(253, 219, 85);
+    color: cadetblue;
+	opacity: 0.9;
+}
+
+
+
+/*Edit Delete button*/
+
+.containerE .btnE,
+.containerA .btnA,
+.containerD form .btnD{
+  color: #f4c503;
+  border-radius: 5px;
+  background: cadetblue;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: .5s;
+  letter-spacing: 3px;
+  opacity: 0.8;
+}
+
+.containerE .btnE:hover,
+.containerA .btnA:hover,
+.containerD form .btnD:hover {
+  background: rgb(253, 219, 85);
+  opacity: 0.8;
+  color: cadetblue;
+  border-radius: 5px;
+  border-color: cadetblue;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px rgb(253, 219, 85);
+}
+
+.containerA .btnA{
+	margin-top: 10px;
+    margin-left: 785px;
+}
+
+.containerE .btnE{
+    margin-left: 750px;
+}
+.containerD form .btnD{
+	margin-top: 10px;
+    margin-left: 750px;
+}
+
+
+
+
+/*Button*/
+.transbox form input[type="submit"] {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #f4c503;
+  border-radius: 7px;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 0;
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+  width:100%;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+.transbox input[type="submit"]:hover {
+  background: rgb(253, 219, 85);
+  color: cadetblue;
+  border-radius: 7px;
+  font-weight: bold;
+  border-color: white;
+  opacity: 0.5;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px rgb(253, 219, 85);
+}
